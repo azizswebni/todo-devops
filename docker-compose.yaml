@@ -9,7 +9,6 @@ services:
     environment:
       - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
   devops-todo:
-    image: git@github.com:azizswebni/todo-devops.git-${tag}
     container_name: todo-devops-examen
     build:
       context: ./
