@@ -75,6 +75,7 @@ class App extends Component {
               )}
             />
             <Route path="/about" component={About} />
+            <footer> SOUABNI Aziz - 2GL2- ITBS- 2023/2024 </footer>
           </div>
         </div>
       </Router>
